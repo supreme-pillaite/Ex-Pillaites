@@ -1,44 +1,56 @@
-# 🎓💀 ExPillaites: Where College Dreams Come to Network
+<h1 align="center">Pillaites Clone ✨</h1>
 
-Welcome to ExPillaites, the social network that proves your college years were just the beginning of your lifelong descent into corporate purgatory!
+![Demo App](/frontend/public/screenshot-for-readme.png)
 
-## 🕸️ What is ExPillaites?
+[Video Tutorial on Youtube](https://youtu.be/Ycg48pVp3SU)
 
-ExPillaites is the result of a caffeine-fueled, sleep-deprived hackathon. It's like LinkedIn, but with more existential dread and fewer "inspirational" posts about how your education made you a millionaire by 25.
+About This Course:
 
-### Features:
+-   🚀 Project Setup
+-   🗄️ MongoDB Integration
+-   💳 Stripe Payment Setup
+-   🔐 Authentication System with JWT
+-   ✉️ Welcome Emails
+-   🎨 Design with Tailwind & DaisyUI
+-   🛡️ Data Protection
+-   🤝 Connection Requests (Send, Accept, Reject)
+-   📝 Creating and Sharing Posts
+-   🖼️ Image Upload for Posts and Profiles
+-   👤 Profile Creation and Updates
+-   👥 Suggested Users Feature
+-   👍 Like and Comment on Posts
+-   📰 News Feed Algorithm
+-   ⌛ And a lot more...
 
-- **Post**: Share your "success" stories and watch as your former classmates pretend to care.
-- **Comment**: Offer "constructive" feedback on others' life choices while questioning your own degree.
-- **Share**: Spread the misery! Because if college taught you anything, it's that misery loves company.
-- **Education Experiences**: Relive your academic trauma and realize how little it prepared you for the real world.
+### Setup .env file
 
-## 🚀 Getting Started
+```bash
+PORT=5000
+MONGO_URI=<your_mongo_uri>
 
-1. Clone this repository (just like you clone your successful classmates' life choices)
-2. Install dependencies (npm install existential-crisis)
-3. Run `npm start` and watch as your computer questions its education
+JWT_SECRET=<yourverystrongsecret>
 
-## 🛠️ Tech Stack
+NODE_ENV=development
 
-- Frontend: React (because we love hooking ourselves to endless cycles of updates, just like the curriculum)
-- Backend: Node.js (as unstable as your post-grad career path)
-- Database: MongoDB (where dreams are stored and never queried again)
-- Authentication: JWT (Just Wishing for Trust)
+MAILTRAP_TOKEN=<your_mailtrap_token>
+EMAIL_FROM=mailtrap@demomailtrap.com
+EMAIL_FROM_NAME=<Your_Name>
 
-## 🤝 Contributing
+CLOUDINARY_API_KEY=<your_cloudinary_api_key>
+CLOUDINARY_API_SECRET=<your_cloudinary_api_secret>
+CLOUDINARY_CLOUD_NAME=<your_cloudinary_cloud_name>
 
-Think you can make this digital purgatory better? We doubt it, but we're too tired to stop you. Fork the repo, make your changes, and submit a PR. We'll review it right after we finish updating our own resumes.
+CLIENT_URL=http://localhost:5173
+```
 
-## 📜 License
+### Run this app locally
 
-This project is licensed under the "Your-Degree-Won't-Make-You-Rich-Anyway" License. Feel free to use it, abuse it, or use it as a cautionary tale in your next job interview.
+```shell
+npm run build
+```
 
-## 🙏 Acknowledgments
+### Start the app
 
-- Caffeine, our one true friend
-- The college janitor who didn't kick us out at 3 AM
-- That one professor who thought this was actually a good idea
-
-Remember, in ExPillaites, every connection is just another reminder of the friends you used to have before you all became corporate drones. Happy Networking, ExPillaites! 🥳🔗⚰️
-
+```shell
+npm run start
+```
